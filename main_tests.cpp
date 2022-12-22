@@ -12,7 +12,7 @@ TEST(VectorTest, test1) {
 
 TEST(VectorTest, test2) {
     Vector c = Vector(-1, 0);
-    EXPECT_EQ(1, c.len());
+    EXPECT_EQ(2, c.len());
 }
 
 TEST(LineTest, test1) {
