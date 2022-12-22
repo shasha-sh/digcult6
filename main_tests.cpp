@@ -21,3 +21,8 @@ TEST(LineTest, test1) {
     Line c = Line(-1, -1, 0);
     EXPECT_EQ(c, get_line(a, b));
 }
+
+TEST(VectorTest, test3) {
+    Vector c = Vector(-1, 0);
+    EXPECT_EQ(1, c.len());
+}
